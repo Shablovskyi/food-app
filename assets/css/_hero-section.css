@@ -36,12 +36,12 @@
   color: var(--color-white);
 }
 
-.hero__button {
+.button--container {
   display: flex;
   gap: 34px;
 }
 
-.hero__button a {
+.button--container a {
   width: 236px;
   font-size: 24px;
   font-weight: 700;
@@ -54,7 +54,7 @@
   color: var(--color-white);
 }
 
-.hero__button a:nth-child(1) {
+.button--container a:nth-child(1) {
   border: none;
   background-color: var(--color-active);
 }
@@ -71,4 +71,5 @@
 hr {
   width: 884px;
   border-color: (--color-hr);
+  margin: 0;
 }
