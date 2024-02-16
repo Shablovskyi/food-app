@@ -1,0 +1,20 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 160px 68px 186px;
+}
+
+.social--container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.copy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-copy);
+}

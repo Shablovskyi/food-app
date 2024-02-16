@@ -1,0 +1,31 @@
+.download-section {
+  background: url(../image/rectangle_2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 130px 290px;
+  color: var(--color-white);
+}
+
+.download__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.42;
+  margin-bottom: 20px;
+}
+
+.download__text{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.58;
+  margin-bottom: 60px;
+}
+
+.download__btn a{
+  width: 142px;
+  font-size: 16px;
+  border-radius: 10px;
+}
